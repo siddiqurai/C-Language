@@ -4,10 +4,10 @@ int main()
 {
     // Write a program that takes an integer and print that number
 
-    int num;
-    printf("Please enter an integer =");
-    scanf("%d", &num);
-    printf("You have pressed = %d\n", num);
+    int num1;
+    printf("Enter Number : ");
+    scanf("%d",&num1);
+    printf("You have enter %d\n:",num1);
 
     return 0;
 }
